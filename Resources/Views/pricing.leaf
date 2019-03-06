@@ -1,0 +1,7 @@
+#set("title") {Pricing}
+
+#set("body") {
+<h1>Pricing Page</h1>
+}
+
+#embed("base")

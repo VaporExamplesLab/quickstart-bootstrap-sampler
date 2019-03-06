@@ -1,0 +1,7 @@
+#set("title") {Login}
+
+#set("body") {
+<h1>Login Page</h1>
+}
+
+#embed("base")

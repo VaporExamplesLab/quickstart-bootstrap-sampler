@@ -1,0 +1,7 @@
+#set("title") {Catalog}
+
+#set("body") {
+<h1>Catalog Page</h1>
+}
+
+#embed("base")

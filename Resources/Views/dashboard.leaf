@@ -1,0 +1,7 @@
+#set("title") {Dashboard}
+
+#set("body") {
+<h1>Dashboard Page</h1>
+}
+
+#embed("base")

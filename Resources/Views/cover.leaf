@@ -1,0 +1,7 @@
+#set("title") {Cover}
+
+#set("body") {
+<h1>Cover Page</h1>
+}
+
+#embed("base")

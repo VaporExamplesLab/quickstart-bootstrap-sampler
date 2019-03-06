@@ -1,0 +1,7 @@
+#set("title") {Grid}
+
+#set("body") {
+<h1>Grid Page</h1>
+}
+
+#embed("base")

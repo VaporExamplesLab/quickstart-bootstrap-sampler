@@ -1,0 +1,7 @@
+#set("title") {Jumbotron}
+
+#set("body") {
+<h1>Jumbotron Page</h1>
+}
+
+#embed("base")

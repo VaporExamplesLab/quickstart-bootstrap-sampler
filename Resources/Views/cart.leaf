@@ -1,0 +1,7 @@
+#set("title") {Cart}
+
+#set("body") {
+<h1>Cart Page</h1>
+}
+
+#embed("base")
