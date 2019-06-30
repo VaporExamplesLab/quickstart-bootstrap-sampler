@@ -22,6 +22,6 @@ Page Checklist:
 
 * Image
     
-## Resources <a id="Resources">[▴](#toc)</a>
+## Resources <a id="Resources"></a>[▴](#toc)
 
 * [Related ⇗]()
