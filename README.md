@@ -17,9 +17,9 @@
 [Getting Started](#GettingStarted) •
 [Resources](#Resources) 
 
-## Getting Started <a id="GettingStarted">[▴](#toc)</a>
+## Getting Started <a id="GettingStarted"></a>[▴](#toc)
 
-## Resources <a id="Resources">[▴](#toc)</a>
+## Resources <a id="Resources"></a>[▴](#toc)
 
 * [Bootstrap ⇗](https://getbootstrap.com)
 * [Wenderlich: Beautifying Templated Websites with Leaf and Bootstrap ⇗](https://www.raywenderlich.com/1004734-beautifying-templated-websites-with-leaf-and-bootstrap)
