@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Other metadata -->
     <meta name="description" content="">
-    <meta name="author" content="Vapor Example Lab">
+    <meta name="author" content="VaporExamplesLab">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" 
@@ -107,9 +107,8 @@
     <span>Copyright &copy; 2017-2019 Someone. &middot; 
           <a href="#">Privacy</a> &middot; 
           <a href="#">Terms</a> &middot; 
-          <a href="#">Site Map</a>
+          <a href="#">Site&nbspMap</a>
     </span>
-<!--     <span>Place sticky footer content here.</span> -->
   </div>
 </footer>
 

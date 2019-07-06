@@ -3,6 +3,21 @@ import Vapor
 
 /// Called before your application initializes.
 public func configure(_ config: inout Config, _ env: inout Environment, _ services: inout Services) throws {
+    if env == .development {
+        
+        services.register(Server.self) {
+            (container: Container) -> NIOServer in
+            var serverConfig = try container.make() as NIOServerConfig
+            serverConfig.port = 8080 // 8989, 29***
+            serverConfig.hostname = "0.0.0.0" // "localhost", "0.0.0.0",  "192.168.31.215"
+            let server = NIOServer(
+                config: serverConfig,
+                container: container
+            )
+            return server
+        }
+    }
+    
     // Register providers first
     try services.register(LeafProvider())
 
