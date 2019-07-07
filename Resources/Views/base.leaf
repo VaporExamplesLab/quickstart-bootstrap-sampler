@@ -8,14 +8,26 @@
     <meta name="description" content="">
     <meta name="author" content="VaporExamplesLab">
 
+    <!-- Bootswatch Themes:
+             * https://www.bootstrapcdn.com/bootswatch/
+             * https://bootswatch.com
+             -->
+    <!-- Cerulean: calm blue sky -->
+    <link rel="stylesheet"
+             href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css"
+             integrity="sha384-C++cugH8+Uf86JbNOnQoBweHHAe/wVKN/mb0lTybu/NZ9sEYbd+BbbYtNpWYAsNP"
+             crossorigin="anonymous" >
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" 
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
           crossorigin="anonymous">
 
+    #get(headadditions)
+
     <!-- Custom styles overriding CSS -->
-    <link rel="stylesheet" href="/styles/app.css">
+    <link rel="stylesheet" href="styles/app.css">
 
 	<title>#get(title)</title>
 </head>

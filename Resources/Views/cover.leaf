@@ -1,7 +1,20 @@
+#set("headadditions"){
+    <!-- Custom styles for this template -->
+    <link href="styles/cover.css" rel="stylesheet">
+}
+
 #set("title") {Cover}
 
 #set("body") {
-<h1>Cover Page</h1>
+<div  class="text-center">
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+   <h1 class="cover-heading">Cover page.</h1>
+    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+    <p class="lead">
+      <a href="#" class="btn btn-lg btn-primary">Learn more</a>
+    </p>
+</div>
+</div>
 }
 
 #embed("base")
