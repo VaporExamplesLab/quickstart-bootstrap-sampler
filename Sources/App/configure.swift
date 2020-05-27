@@ -8,7 +8,7 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
         services.register(Server.self) {
             (container: Container) -> NIOServer in
             var serverConfig = try container.make() as NIOServerConfig
-            serverConfig.port = 8080 // 8989, 29***
+            serverConfig.port = 8989 // 8080, 8989, 29***
             serverConfig.hostname = "0.0.0.0" // "localhost", "0.0.0.0",  "192.168.31.215"
             let server = NIOServer(
                 config: serverConfig,

@@ -23,6 +23,7 @@ playground.xcworkspace
 
 ### regenerate Xcode with 'vapor update -y' or 'vapor xcode' ###
 *.xcodeproj
+.swiftpm
 
 #############
 ### Vapor ###
